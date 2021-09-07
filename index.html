@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- tophead -->
+  <nav class=" nav-top navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="row top ">
+        <div class="left">
+          <ul>
+            <li><a href=""><i class="fas fa-phone-alt"></i>9860654885</a></li>
+            <li><a href=""><i class="far fa-envelope"></i>dulalsuman853@gmail</a></li>
+          </ul>
+
+        </div>
+        <div class="right">
+
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+
+        </div>
+        <div class="ex">
+          <h4>life time experience</h4>
+        </div>
+      </div>
+    </div>
+
+
+  </nav>
+  <!-- menubar -->
+  <nav class=" menu navbar navbar-expand-lg navbar-light bg-light" id="menu">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">destination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">new</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+        <div class="login d-flex">
+          <i class="fas fa-search"></i>
+          <i class="far fa-user"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- sliderpart -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"
+        style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(img/1.jpg);">
+        <div class="content">
+          <h3>travel & adventure</h3>
+          <p>would you like to go?</p>
+        </div>
+      </div>
+      <div class="carousel-item "
+        style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(img/2.jpg);">
+        <div class="content">
+          <h3>travel & adventure</h3>
+          <p>would you like to go?</p>
+        </div>
+
+      </div>
+      <div class="carousel-item "
+        style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(img/3.jpg);">
+        <div class="content">
+          <h3>travel & adventure</h3>
+          <p>would you like to go?</p>
+
+          <i class="fas fa-long-arrow-left" style="color: aliceblue; font-size: 3rem; z-index: 222;"></i>
+        </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <i class="fas fa-long-arrow-alt-left"></i>
+
+
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <i class="fas fa-long-arrow-alt-right"></i>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row search">
+      <div class="col-sm-3 dis">
+        <h2>distination</h2>
+        <input type="text" placeholder="search place">
+      </div>
+      <div class="col-sm-3 dis">
+        <h2>date</h2>
+        <input type="date" name="suman">
+      </div>
+      <div class="col-sm-3 dis">
+        <h2>tour</h2>
+        <select name="" id="">
+          <option value="">trekking</option>
+          <option value="">jungle afari</option>
+          <option value="">heli tour</option>
+
+
+        </select>
+      </div>
+      <div class="col-sm-3 dis find">
+        <a href="">find now</a>
+
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+  <div class="package">
+    <div class="container">
+      <div class="tittle">
+        <small>distination list</small>
+        <h1>go exotic place</h1>
+      </div>
+      <div class="row">
+
+
+        <div class="col-md-3">
+          <div class="imge-1">
+            <div class="place">
+              <img src="img/1.png" alt="">
+              <h3>spain</h3>
+              <div class="btn">
+                <a href="">package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="imge-1">
+            <div class="place">
+              <img src="img/2.png" alt="">
+              <h3>thiland</h3>
+              <div class="btn">
+                <a href="">package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="imge-1">
+            <div class="place">
+              <img src="img/3.png" alt="">
+              <h3>africa</h3>
+              <div class="btn">
+                <a href="">package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 my-5">
+          <div class="imge-1">
+            <div class="place">
+              <img src="img/4.png" alt="">
+              <h3>switcherland</h3>
+              <div class="btn">
+                <a href="">package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 my-5">
+          <div class="imge-1">
+            <div class="place">
+              <img src="img/5.png" alt="">
+              <h3>nepal</h3>
+              <div class="btn">
+                <a href="">package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <section class="trip">
+    <div class="float-1">
+      <img src="img/7.png" alt="" class="img-fluid">
+    </div>
+    <div class="float-2">
+      <img src="img/8.png" alt="" class="img-fluid">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="trip-info">
+            <div class="dis">
+              <span>30%</span> <br>
+              <strong>discount</strong>
+            </div>
+            <img src="img/6.png" alt="" class="img-fluid">
+            <div class="call-btn">
+              <p>book right now</p>
+              <h1><i class="fas fa-phone-volume"></i>9860654885</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 info">
+          <div class="trip-content">
+            <h1>Plan Your Trip with Trevily</h1>
+            <p>
+              There are many variations of passages of available but the majority have suffered alteration in some form,
+              by injected hum randomised words which don't look even slightly.
+            </p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i></i>Invest in your simply neighborhood </li>
+              <li> <i class="fas fa-check-circle"></i></i> Support people in free text extreme need</li>
+              <li> <i class="fas fa-check-circle"></i> Largest global industrial business community</li>
+
+
+
+            </ul>
+            <div class="b-btn">
+              book with us
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="owl">
+    <div class="container">
+      <div class="tittle">
+        <small>Featured tours</small>
+        <h1>Most Popular Tours</h1>
+      </div>
+    </div>
+    <div class="w owl-carousel owl-theme">
+      <div class="card" style="width: 18rem;">
+        <img src="img/1.png" class="card-img-top" alt="...">
+        <div class="tour-content">
+          <span class="icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <h4>national park day tour</h4>
+          <strong>$3000/ <span>per person</span> </strong> <br>
+          <div class="btn">
+            3 days 12+ newwork
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/2.png" class="card-img-top" alt="...">
+        <div class="tour-content">
+          <span class="icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <h4>national park day tour</h4>
+          <strong>$3000/ <span>per person</span> </strong> <br>
+          <div class="btn">
+            3 days 12+ newwork
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/3.png" class="card-img-top" alt="...">
+        <div class="tour-content">
+          <span class="icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <h4>national park day tour</h4>
+          <strong>$3000/ <span>per person</span> </strong> <br>
+          <div class="btn">
+            3 days 12+ newwork
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/4.png" class="card-img-top" alt="...">
+        <div class="tour-content">
+          <span class="icon">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <h4>national park day tour</h4>
+          <strong>$3000/ <span>per person</span> </strong> <br>
+          <div class="btn">
+            3 days 12+ newwork
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+  </section>
+  <section class="banner">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <div class="vedio-play">
+            <div class="vedio">
+              <i class="fas fa-play"></i>
+              <i class="ri"></i>
+            </div>
+            <div class="ved-content">
+              <p>Are you ready to travel?</p>
+              <h1>Tevily is a World Leading Online Tour Booking Platform</h1>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <section class="brand">
+    <h1>our parther</h1>
+    <div class="brand-img">
+
+    </div>
+    <div class="container">
+
+      <div class="owl-carousel owl-theme slide ">
+        <div class="item"><img src="img/22.png" alt=""></div>
+        <div class="item"><img src="img/44.png" alt=""></div>
+        <div class="item"><img src="img/55.png" alt=""></div>
+        <div class="item"><img src="img/66.png" alt=""></div>
+        <div class="item"><img src="img/77.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section class="choose">
+
+    <div class="row ch">
+      <div class="col-lg-6">
+        <div class="choose-img">
+          <div class="circle">
+            <p>Trip<br> & tour
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="right">
+          <div class="tit">
+            <div class="r-t">
+              <small> Our benefit lists</small>
+              <h1>
+                Why Choose Tevily
+
+              </h1>
+            </div>
+            <p>
+              There are many variations of passages of Lorem Ipsum is simply free text available in the market for you,
+              but the majority have suffered alteration in some form.
+            </p>
+            <div class="par-1">
+              <h5>Professional and Certified</h5>
+
+              <p class="p">
+                Lorem ipsum is simply free text dolor sit but the majority have suffered amet, consectetur notted.
+              </p>
+            </div>
+            <div class="par-1">
+              <h5>Get Instant Tour Bookings</h5>
+
+              <p class="p">
+                Lorem ipsum is simply free text dolor sit but the majority have suffered amet, consectetur notted.
+              </p>
+            </div>
+          </div>
+          <div class="choose-content">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="new">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="new-left">
+            <p>From the blog post</p>
+            <h1>News & Articles</h1>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <button><a href="">view all post</a></button>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="img-box">
+            <img src="img/n1.jpg" alt="" class="img-fluid">
+            <div class="date">
+              <h1>28</h1>
+              <span>aug</span>
+            </div>
+            <div class="fadeup">
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <div class="content-new">
+            <span><i class="fas fa-user-cog"></i>admin</span> <span><i class="far fa-comments"></i> 2 comment</span>
+            <h2>Journeys are Best Measured in new friends</h2>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-box">
+            <img src="img/n3.jpg" alt="" class="img-fluid">
+            <div class="date">
+              <h1>28</h1>
+              <span>aug</span>
+            </div>
+            <div class="fadeup">
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <div class="content-new">
+            <span><i class="fas fa-user-cog"></i>admin</span> <span><i class="far fa-comments"></i> 2 comment</span>
+            <h2>Journeys are Best Measured in New Friends</h2>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-box">
+            <img src="img/n2.jpg" alt="" class="img-fluid">
+            <div class="date">
+              <h1>28</h1>
+              <span>aug</span>
+            </div>
+            <div class="fadeup">
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+          <div class="content-new">
+            <span><i class="fas fa-user-cog"></i>admin</span> <span><i class="far fa-comments"></i> 2 comment</span>
+            <h2>Things to See and Do When Visiting Japan</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row r">
+        <div class="col-4">
+          <div class="foot-1">
+            <img src="img/logo1.png" alt="" class="img-fluid" style="width:15rem;">
+
+            <p>Welcome to our Trip and Tour Agency. Lorem simply text amet cing elit.</p>
+            <ul>
+              <li><a href=""> <i class="fas fa-phone-alt"></i>+92 666 888 0000</a></li>
+              <li><a href=""><i class="fas fa-envelope"></i> needhelp@company.com</a></li>
+              <li><a href=""><i class="fas fa-map-marker-alt"></i>666 road, broklyn street new york</a></li>
+
+
+
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="foot-2">
+            <h3>company</h3>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Community Blog</a></li>
+              <li><a href="">Rewards</a></li>
+              <li><a href="">Work with Us</a></li>
+              <li><a href="">Meet the Team</a></li>
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="foot-2">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Community Blog</a></li>
+              <li><a href="">Rewards</a></li>
+              <li><a href="">Work with Us</a></li>
+              <li><a href="">Meet the Team</a></li>
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="foot-3">
+            <h3>Newsletter</h3>
+            <input type="text" placeholder="email address">
+            <button><a href="">subscribe</a></button>
+            <p>
+
+              <i class="fas fa-check-circle"></i>I agree to all terms and policies
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      // margin: 4,
+      // stagepadding:true,
+      
+      items:4,
+      autoplay:true,
+      autplayTimeout:3000,
+      // navigation:true,
+      // autowidth:true,
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        480: {
+          items: 2,
+
+        },
+        780: {
+          items: 3,
+
+        },
+        992: {
+          items: 4,
+        }
+      }
+    })
+  </script>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      let menu = document.getElementById('menu')
+
+      if (scrollY > 52) {
+        menu.classList.add('fix');
+      }
+      else {
+        menu.classList.remove('fix');
+      }
+    })
+
+  </script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
